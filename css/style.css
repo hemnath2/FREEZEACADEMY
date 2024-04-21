@@ -646,11 +646,13 @@ a:focus {
 .addition{
     display: flex;
     flex-direction: row;
-    margin-left: -4%;
+    margin-left: 5%;
     margin-top: 7%;
     gap: 1%;
     height: 31px;
 }
+
+
 
 }
 
@@ -681,25 +683,28 @@ a:focus {
     flex-direction: row;
     margin-left: 4%;
     margin-top: 4%;
-    gap: 21%;
+    gap: 18%;
 }
 
-  .hoo{
+
+.hoo{
       height: 319px;
 }
-  
-}
 
-.branchbro{
-     font-size: 152%;
-    text-shadow: 2px 2px black;
-        margin-bottom: -6%;
-}
 
 .branchone{
       margin-top: 0%;
     margin-left: 0%;
+        border: 1px solid;
+    width: 30%;
 }
+
+.branchone:hover{
+      color: black;
+      background: white;
+      border: 1px solid white;
+}
+
 
 .branchsl{
   margin-top: 0%;
@@ -710,5 +715,21 @@ a:focus {
 .branchtwo{
    margin-top: 0%;
     margin-left: 0%;
-  
+   border: 1px solid;
+    width: 15%;
+}
+
+.branchtwo:hover{
+      color: black;
+      background: white;
+      border: 1px solid white;
+}
+
+
+
+}
+
+.branchbro{
+     font-size: 152%;
+        margin-bottom: -6%;
 }
